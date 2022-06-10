@@ -37,3 +37,10 @@ THEN the saved events persist
 <figure>
 <img src="./assets/Screenshot2.png">
 </figure>
+
+## Links
+
+http://127.0.0.1:5500/index.html
+
+https://github.com/san098765432/My-Weekly-Planner 
+
