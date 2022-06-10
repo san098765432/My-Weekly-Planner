@@ -39,8 +39,7 @@ THEN the saved events persist
 </figure>
 
 ## Links
-
-http://127.0.0.1:5500/index.html
+https://san098765432.github.io/My-Weekly-Planner/
 
 https://github.com/san098765432/My-Weekly-Planner 
 
