@@ -21,6 +21,42 @@ $('#15 .description').val(localStorage.getItem('15'))
 $('#16 .description').val(localStorage.getItem('16'))
 $('#17 .description').val(localStorage.getItem('17'))
 $('#18 .description').val(localStorage.getItem('18'))
+
+
+let time = moment().format('MMMM, Do, YYYY')
+$('#currentDay').text(time)
+
+
+let currentTime = moment().hour()
+
+
+$('.time-block').each(function(){
+    let hourBlock= parseInt($(this).attr('id'))
+    if (hourBlock < currentTime ) {
+        $(this).addClass('past')
+    }
+    else if ( hourBlock === currentTime) {
+        $(this).removeClass('past')
+        $(this).addClass('present')
+    }
+    else {
+        $(this).removeClass('past')
+        $(this).removeClass('present')
+        $(this).addClass('future')
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
 })
 
 
